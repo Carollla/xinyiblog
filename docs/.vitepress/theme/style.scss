@@ -1,0 +1,47 @@
+.VPHome {
+  // 定义遮罩样式
+  background: radial-gradient(ellipse,
+      rgba(var(--bg-gradient-home), 1) 0%,
+      rgba(var(--bg-gradient-home), 0) 150%);
+
+  // 自定义首页背景图
+  &::before {
+    // 图片来源：https://zhuanlan.zhihu.com/p/54060187
+    background-image: url(./assets/bg_3.jpg);
+    background-size: cover;
+  }
+}
+
+.blog-author img {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #eee !important;
+}
+
+.el-avatar.el-avatar--circle {
+  padding: 5px;
+  background-color: #eee;
+}
+
+.blog-footer {
+  display: none !important;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.blog-list-wrapper {
+  li {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+}
