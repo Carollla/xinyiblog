@@ -6,7 +6,7 @@ import { blogTheme } from './blog-theme'
 // 判断是否为生产环境
 const isProd = process.env.NODE_ENV === 'production'
 
-const base = process.env.VITEPRESS_BASE || (isProd ? '/Carollla/xinyiblog/' : "/")
+const base = process.env.VITEPRESS_BASE || (isProd ? '/xinyiblog/' : "/")
 
 export default defineConfig({
   extends: blogTheme,
