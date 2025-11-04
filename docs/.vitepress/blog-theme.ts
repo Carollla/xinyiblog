@@ -25,17 +25,17 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
-      nickname: '模板市场',
+      nickname: 'nanxer',
       des: '',
       avatar: 'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://vuejs-core.cn/store',
+      url: 'https://nanxer.it4keth2ee.top/',
     },
     {
-      nickname: '一键购买',
+      nickname: 'st4r',
       des: '',
       avatar:
         'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://api.vuejs-core.cn/pay/alipayPageRedirect?amount=9.99&title=blog-1',
+      url: 'https://st4r.it4keth2ee.top',
     },
   ],
 
