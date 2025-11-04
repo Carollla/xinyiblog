@@ -27,7 +27,7 @@ const blogTheme = getThemeConfig({
     {
       nickname: 'nanxer',
       des: '',
-      avatar: 'https://vitepress.dev/vitepress-logo-large.webp',
+      avatar: 'https://avatars.githubusercontent.com/u/160981858?v=4',
       url: 'https://nanxer.it4keth2ee.top/',
     },
     {
